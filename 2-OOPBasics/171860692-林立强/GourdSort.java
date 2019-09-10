@@ -5,9 +5,10 @@ public class GourdSort {
     public static void main(String[] args){
         GroudGroup group=new GroudGroup();
         group.generate();
+        group.popsort();
+        group.saycolor();
         group.mergesort(0,6);
-        //group.popsort();
-        group.sayhello();
+        group.saycolor();
     }
 }
 
