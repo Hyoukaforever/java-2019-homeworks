@@ -6,9 +6,9 @@ import java.util.List;
 
 class GroudGroup {
     private GourdBaby []babies=new GourdBaby[7];
-    void sayidx(){
+    void sayname(){
         for(int i=0;i<7;i++){
-            babies[i].sayidx();
+            babies[i].sayname();
         }
     }
     void saycolor(){
