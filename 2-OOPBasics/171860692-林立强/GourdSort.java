@@ -6,7 +6,7 @@ public class GourdSort {
         GroudGroup group=new GroudGroup();
         group.generate();
         group.popsort();
-        group.saycolor();
+        group.sayname();
         group.mergesort(0,6);
         group.saycolor();
     }
