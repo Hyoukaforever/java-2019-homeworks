@@ -6,12 +6,16 @@ import java.util.List;
 
 class GroudGroup {
     private GourdBaby []babies=new GourdBaby[7];
-    void sayhello(){
+    void sayidx(){
         for(int i=0;i<7;i++){
-            babies[i].say();
+            babies[i].sayidx();
         }
     }
-
+    void saycolor(){
+        for(int i=0;i<7;i++){
+            babies[i].saycolor();
+        }
+    }
     void generate(){
         String [] colors={"赤","橙","黄","绿","青","蓝","紫"};
         String [] names={"老大","老二","老三","老四","老五","老六","老七"};
